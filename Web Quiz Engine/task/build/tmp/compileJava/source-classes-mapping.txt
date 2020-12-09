@@ -1,0 +1,32 @@
+engine/UserRepository.java
+ engine.UserRepository
+engine/MyUserDetailsService.java
+ engine.MyUserDetailsService
+engine/CompletedQuizRepository.java
+ engine.CompletedQuizRepository
+engine/MyUserDetails.java
+ engine.MyUserDetails
+engine/WebQuizEngine.java
+ engine.WebQuizEngine
+engine/User.java
+ engine.User
+engine/Quiz.java
+ engine.Quiz
+engine/Answer.java
+ engine.Answer
+engine/QuizService.java
+ engine.QuizService
+engine/Controller.java
+ engine.Controller
+engine/QuizRepository.java
+ engine.QuizRepository
+engine/CompletedQuiz.java
+ engine.CompletedQuiz
+engine/AuthenticationEntryPoint.java
+ engine.AuthenticationEntryPoint
+engine/PasswordConfig.java
+ engine.PasswordConfig
+engine/CompletedQuizService.java
+ engine.CompletedQuizService
+engine/WebSecurityConfig.java
+ engine.WebSecurityConfig
