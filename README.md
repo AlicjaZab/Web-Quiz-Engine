@@ -20,7 +20,7 @@ All of the actions require basic authorization, except registration. If you try 
 
 **Registration**
 
-Send a POST request to /api/register with JSON with username (email) and password (email field must contain '@' and '.', and  password must have at least 5 characters):
+Send a POST request to **/api/register** with JSON with username (email) and password (email field must contain '@' and '.', and  password must have at least 5 characters):
 ```
 {
   "email": "test@gmail.com",
@@ -32,7 +32,7 @@ Don't worry, there will be saved only encrypted version of your password!
 
 **Creating new quizzes**
 
-Send POST request to /api/quizzes with JSON with title, text, options (at least two) and answer (an index of correct option; it can be one, more than one or zero correct options):
+Send POST request to **/api/quizzes** with JSON with title, text, options (at least two) and answer (an index of correct option; it can be one, more than one or zero correct options):
 ```
 {
   "title": "The apple",
@@ -54,7 +54,7 @@ then you will receive a response-Json with generated ID of your quiz, and other 
 
 **Get all quizzes**
 
-Send GET request to /api/quizzes, and you will receive JSON with a list of existing quizzes. Each quiz contains fields id, title, text and options:
+Send GET request to **/api/quizzes**, and you will receive JSON with a list of existing quizzes. Each quiz contains fields id, title, text and options:
 ```
 {
     "content": [
@@ -79,7 +79,7 @@ However, the response contains the maximum of 10 quizzes. That is because if the
 
 **Get quiz by id**
 
-Send GET request to /api/quizzes/[ID], where [ID] is the ID of quiz you want to get (eg. http://localhost:8889/api/quizzes/3). You will receive JSON with fields id, title, text and options. Now you can try to solve it!
+Send GET request to **/api/quizzes/[ID]**, where [ID] is the ID of quiz you want to get (eg. http://localhost:8889/api/quizzes/3). You will receive JSON with fields id, title, text and options. Now you can try to solve it!
 ```
 {
   "id": 3,
@@ -92,7 +92,8 @@ If such quiz doesn't exist you will receive a response with status code 404 (Not
 
 
 **Solve quiz**
-Send a POST request to /api/quizzes/[ID]/solve and pass the **answer** parameter in the content (eg. http://localhost:8889/api/quizzes/3/solve?answer=2). This parameter is the index of a chosen option from options array. If the answer is correct you will receive following message:
+
+Send a POST request to **/api/quizzes/[ID]/solve** and pass the **answer** parameter in the content (eg. http://localhost:8889/api/quizzes/3/solve?answer=2). This parameter is the index of a chosen option from options array. If the answer is correct you will receive following message:
 ```
 {"success":true,"feedback":"Congratulations, you're right!"}
 ```
@@ -101,16 +102,16 @@ But if the answer is wrong (wrong answer or wrong amount of correct options) you
 {"success":false,"feedback":"Wrong answer! Please, try again."}
 ```
 If such quiz doesn't exist you will receive a response with status code 404 (Not found).
-000
+
 
 **Delete quiz**
 
-Send DELETE request to /api/quizzes/[ID]. If quiz was deleted successfully, you will receive empty response with status code 204 (no content), if such quiz doesn't exist status code 404 (Not found), or if you are trying to delete a quiz that you are not the author of, status code 403 (forbidden).
+Send DELETE request to **/api/quizzes/[ID]**. If quiz was deleted successfully, you will receive an empty response with status code 204 (No content), if such quiz doesn't exist status code 404 (Not found), or if you are trying to delete a quiz that you are not the author of, status code 403 (Forbidden).
 
 
 **Get completed quizzes**
 
-Send GET request to /api/quizzes/completed to get all the quizzes you've successfully completed. You will receive a response - JSON with field *content* and some more additional information. In *content* there is a list of completed quizzes, but only the IDs and completion date:
+Send GET request to **/api/quizzes/completed** to get all the quizzes you've successfully completed. You will receive a response - JSON with field *content* and some more additional information. In *content* there is a list of completed quizzes, but only the IDs and completion date:
 ```
 {
   "totalPages":1,
