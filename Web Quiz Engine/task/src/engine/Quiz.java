@@ -89,27 +89,6 @@ public class Quiz {
                 "  \"options\": " + s + "\n" +
                 "}";
     }
-/*
-    private String optionsToString() {
-        String s = "[";
-        for(String option : options) {
-            s += "\"" + option + "\"" + ", ";
-        }
-        s = s.substring(0, s.length()-2);
-        s += "]";
-        return s;
-    }
-*/ /*
-    public String getAsJSON() {
-        return "{\n" +
-                "  \"id\": " + id + ",\n" +
-                "  \"title\": \""+ title + "\",\n" +
-                "  \"text\": \"" + text + "\",\n" +
-                //"  \"options\": " + optionsToString() + "\n" +
-                "}";
-    }
-
-*/
 
     public boolean isCorrectAnswer(int[] answers) {
         if(this.answer.length == 0 && answers == null || this.answer.length == 0 && answers.length == 0){

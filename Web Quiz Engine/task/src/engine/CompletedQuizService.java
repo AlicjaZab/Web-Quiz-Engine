@@ -13,9 +13,7 @@ public class CompletedQuizService
     public Slice<CompletedQuiz> getAllCompletedQuizzes(Integer pageNo, Integer pageSize, long userId)
     {
         Pageable paging = PageRequest.of(pageNo, pageSize, Sort.by("completedAt").descending());
-
         Slice<CompletedQuiz> pagedResult = repository.findByUserId(userId, paging);
-
         return pagedResult;
     }
 }

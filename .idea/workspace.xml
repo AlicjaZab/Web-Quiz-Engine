@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b9f430d-3a78-41f8-a221-67fcb2c9ec7e" name="Default Changelist" comment="" />
+    <list default="true" id="7b9f430d-3a78-41f8-a221-67fcb2c9ec7e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Squares list/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Squares list/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/calculator/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/calculator/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/AuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/AuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/CompletedQuiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/CompletedQuiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/CompletedQuizService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/CompletedQuizService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/MyUserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/MyUserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/MyUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/out/production/classes/engine/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/AuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/AuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/CompletedQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/CompletedQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/CompletedQuizRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/CompletedQuizRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/CompletedQuizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/CompletedQuizService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/MyUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/MyUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/QuizRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/QuizRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/QuizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/QuizService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web Quiz Engine/task/src/engine/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +59,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -117,46 +154,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607457180012" />
-    <state width="1501" height="382" key="GridCell.Tab.0.bottom" timestamp="1607518538941">
+    <state width="1445" height="351" key="GridCell.Tab.0.bottom" timestamp="1607533761523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487220711" />
-    <state width="1501" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607518538941" />
-    <state width="1501" height="382" key="GridCell.Tab.0.center" timestamp="1607518538941">
+    <state width="1445" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761523" />
+    <state width="1445" height="351" key="GridCell.Tab.0.center" timestamp="1607533761522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="161" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487220711" />
-    <state width="1501" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607518538941" />
-    <state width="1501" height="382" key="GridCell.Tab.0.left" timestamp="1607518538941">
+    <state width="1445" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761522" />
+    <state width="1445" height="351" key="GridCell.Tab.0.left" timestamp="1607533761522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="161" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487220711" />
-    <state width="1501" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607518538941" />
-    <state width="1501" height="382" key="GridCell.Tab.0.right" timestamp="1607518538941">
+    <state width="1445" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761522" />
+    <state width="1445" height="351" key="GridCell.Tab.0.right" timestamp="1607533761523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1506" height="161" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487220711" />
-    <state width="1501" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607518538941" />
-    <state width="1445" height="351" key="GridCell.Tab.1.bottom" timestamp="1607518224711">
+    <state width="1445" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761523" />
+    <state width="1445" height="351" key="GridCell.Tab.1.bottom" timestamp="1607533761523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1446" height="221" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487183654" />
-    <state width="1445" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607518224711" />
-    <state width="1445" height="351" key="GridCell.Tab.1.center" timestamp="1607518224711">
+    <state width="1445" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761523" />
+    <state width="1445" height="351" key="GridCell.Tab.1.center" timestamp="1607533761523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1446" height="221" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487183654" />
-    <state width="1445" height="351" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607518224711" />
-    <state width="1445" height="351" key="GridCell.Tab.1.left" timestamp="1607518224711">
+    <state width="1445" height="351" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761523" />
+    <state width="1445" height="351" key="GridCell.Tab.1.left" timestamp="1607533761523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1446" height="221" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487183654" />
-    <state width="1445" height="351" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607518224711" />
-    <state width="1445" height="351" key="GridCell.Tab.1.right" timestamp="1607518224711">
+    <state width="1445" height="351" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761523" />
+    <state width="1445" height="351" key="GridCell.Tab.1.right" timestamp="1607533761523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1446" height="221" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606487183654" />
-    <state width="1445" height="351" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607518224711" />
+    <state width="1445" height="351" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607533761523" />
     <state x="625" y="224" key="NewModule_or_Project.wizard" timestamp="1607457236406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,19 +218,6 @@
           <url>file://$PROJECT_DIR$/Problems/Find the nearest number/src/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Web Quiz Engine/task/src/engine/Controller.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Web Quiz Engine/task/src/engine/Controller.java</url>
-          <line>72</line>
-          <properties class="engine.Controller" method="getCompletedQuizzes">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

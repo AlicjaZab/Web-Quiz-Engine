@@ -9,15 +9,11 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.util.List;
-
 @RestController
 public class Controller {
 
     String correctAnswer = "{\"success\":true,\"feedback\":\"Congratulations, you're right!\"}";
     String wrongAnswer = "{\"success\":false,\"feedback\":\"Wrong answer! Please, try again.\"}";
-
-    //static int controllNumber = 0;
 
     @Autowired
     private QuizRepository quizRepository;
@@ -36,16 +32,17 @@ public class Controller {
 
 
     @PostMapping(path = "/api/quizzes", consumes = "application/json")
-    public String addQuiz(@RequestBody Quiz quiz){
+    public String addQuiz(@RequestBody Quiz quiz)
+    {
         if(quiz.getText().isEmpty() || quiz.getTitle().isEmpty() || quiz.getOptions().length <2)
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid quiz parameters");
-       // controllNumber++;
         quiz.setAuthor(SecurityContextHolder.getContext().getAuthentication().getName());
         return quizRepository.save(quiz).toString();
     }
 
     @GetMapping(path = "/api/quizzes/{id}")
-    public String getQuizById(@PathVariable long id) {
+    public String getQuizById(@PathVariable long id)
+    {
         Quiz quiz = quizRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Quiz with provided id doesn't exist"));
         return quiz.toString();
     }
@@ -58,10 +55,10 @@ public class Controller {
     }
 
     @PostMapping(path = "/api/quizzes/{id}/solve", consumes = "application/json")
-    public String checkAnswer(@PathVariable long id, @RequestBody(required = false) Answer answer) {
+    public String checkAnswer(@PathVariable long id, @RequestBody(required = false) Answer answer)
+    {
         Quiz quiz = quizRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Unable to find resource"));
         if (quiz.isCorrectAnswer(answer.getAnswer())){
-            //userRepository.findByEmail(SecurityContextHolder.getContext().getAuthentication().getName()).get().addCompleted(id);
             CompletedQuiz completedQuiz = new CompletedQuiz(id, userRepository.findByEmail(SecurityContextHolder.getContext().getAuthentication().getName()).get());
             completedQuizRepository.save(completedQuiz);
             return correctAnswer;
@@ -70,13 +67,15 @@ public class Controller {
     }
 
     @GetMapping(path = "/api/quizzes/completed")
-    public Slice<CompletedQuiz> getCompletedQuizzes(@RequestParam(defaultValue = "0") Integer page){
+    public Slice<CompletedQuiz> getCompletedQuizzes(@RequestParam(defaultValue = "0") Integer page)
+    {
         Slice<CompletedQuiz> page_ = completedQuizService.getAllCompletedQuizzes(page, 10, userRepository.findByEmail(SecurityContextHolder.getContext().getAuthentication().getName()).get().getId());
         return page_;
     }
 
     @PostMapping(path = "/api/register", consumes = "application/json")
-    public HttpStatus register(@RequestBody User user){
+    public HttpStatus register(@RequestBody User user)
+    {
         //check if email and password are not empty & check if email is correct (with @ and . )
            if(user.getEmail() == null || user.getPassword() == null || !user.getEmail().contains("@") || !user.getEmail().contains("."))
                throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid registration parameters");
@@ -96,7 +95,8 @@ public class Controller {
     }
 
     @DeleteMapping(path = "/api/quizzes/{id}")
-    public ResponseEntity deleteQuiz(@PathVariable long id){
+    public ResponseEntity deleteQuiz(@PathVariable long id)
+    {
         if(!quizRepository.findById(id).isPresent())
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Quiz with specified id doesn't exist");
 
@@ -107,6 +107,5 @@ public class Controller {
         quizRepository.deleteById(id);
         return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
-
-
+    
 }

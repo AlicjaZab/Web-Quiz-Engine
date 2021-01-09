@@ -15,9 +15,7 @@ public class QuizService
     public Page<Quiz> getAllQuizzes(Integer pageNo, Integer pageSize)
     {
         Pageable paging = PageRequest.of(pageNo, pageSize);
-
         Page<Quiz> pagedResult = repository.findAll(paging);
-
         return pagedResult;
     }
 }
